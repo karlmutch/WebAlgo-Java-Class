@@ -1,0 +1,8 @@
+-qir2%e0C2%Pxs2u1%s%uN0%Ip7DaK0c2H0%kf2A25000%c2%f#f -F "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.1) Gecko/20020826" -%F "" -%l "en, en, *" http://www.coptic.org/language/index2.html -O1 "C:\\Devel\\Web Algo\\CopticDocuments\\Coptic Documents" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+File generated automatically on Thu, 15 Jul 2010 08:32:20, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

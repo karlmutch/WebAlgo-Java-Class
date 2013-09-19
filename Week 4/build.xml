@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+
+<project name="LingPipe Word Segmentation"
+         default="compile" basedir=".">
+
+<property name="data.dir"
+          value=".\data"/>
+
+<property name="model.dir"
+          value=".\models"/>
+
+
+<path id="classpath.standard">
+  <pathelement location="build/classes"/>
+  <pathelement location="C:/Devel/lingpipe-4.0.0/lingpipe-4.0.0.jar"/>
+  <pathelement location="C:/Devel/lingpipe-4.0.0/lib/nekohtml-1.9.14.jar"/>
+  <pathelement location="C:/Devel/lingpipe-4.0.0/lib/xercesImpl-2.9.1.jar"/>
+  <pathelement location="C:/Devel/lingpipe-4.0.0/lib/xml-apis-2.9.1.jar"/>
+</path>
+
+<target name="clean">
+  <delete dir="build"/>
+  <delete>
+    <fileset dir="." includes="*.segments"/>
+    <fileset dir="." includes="*.knownWords"/>
+    <fileset dir="." includes="*.spell"/>
+  </delete>
+</target>
+
+<target name="compile">
+  <mkdir dir="build/classes"/>
+  <javac includeAntRuntime="false"   optimize="on"
+         debug="yes"
+         debuglevel="source,lines,vars"
+         destdir="build/classes">
+    <compilerarg value="-Xlint:all"/>
+    <classpath refid="classpath.standard"/>
+    <src path="src/"/>
+  </javac>
+</target>
+
+<target name="jar"
+        depends="compile">
+  <jar destfile="segment.jar">
+    <fileset dir="build/classes"
+             includes="**/*.class"/>
+  </jar>
+</target>
+
+<property name="memory.max"
+          value="1G"/>
+
+<target name="run-coptic"
+        depends="compile">
+  <java classname="CopticTokens"
+        maxmemory="1024M"
+        fork="true">
+    <jvmarg value="-server"/>
+    <classpath refid="classpath.standard"/>
+    <arg value="${data.dir}"/>
+    <arg value="coptic"/>                <!-- corpus name -->
+    <arg value="5"/>                 <!-- max n-gram -->
+    <arg value="5.0"/>               <!-- LM interpolation -->
+    <arg value="7000"/>              <!-- LM num chars -->
+    <arg value="1024"/>
+  </java>
+</target>
+
+
+</project>

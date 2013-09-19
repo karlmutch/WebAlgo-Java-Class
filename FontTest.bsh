@@ -1,0 +1,25 @@
+// A Class to help test that UTF-8 encoded strings can be correctly rendered for Coptic
+// demotic and other code pages such as Heiroglyphic from BashShell based scripts
+
+class myTestClass extends JFrame {
+	myTestClass() {
+	
+		// Prepare a string with coptic unicode page characters as UTF-8 in the BashShell source code
+		JLabel copticTest= new JLabel("ⲁⲡⲁ");
+		
+		// Identify the Unicode font that will be used
+		copticTest.setFont(new Font("New Athena Unicode", Font.PLAIN, 30));
+		
+		// Add the text output control to this frame
+        add(copticTest);
+	
+		// Set the dialog box to be big enough to show the text
+		this.setSize(100, 100);
+		
+		// Display the result
+		setVisible(true);
+	}
+}
+
+// Instatiate a test object
+exampleDialog = new myTestClass();

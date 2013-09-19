@@ -1,0 +1,42 @@
+// source ("C:/Devel/Web Algo/Week 5/Test.bsh");
+
+		Set results = new TreeSet();
+		UserDataset ds = UserLoader.loadTrainingDataset();
+		UserDataset testDS = UserLoader.loadTestDataset();
+
+		BoostingCreditClassifier arcx4 = new BoostingCreditClassifier(ds);
+
+		// set verbose level to true to see more details.
+		// ATTENTION: If set to true then every classification will be reported
+		arcx4.setVerbose(false);
+
+		String [] trainers = {"decision tree", "neural network", "naive bayes"};
+
+		for (String aTrainer : trainers) {
+
+			arcx4.setClassifierType(aTrainer);
+
+			int [] populations = { 1, 3 }; //, 5, 7, 11, 31, 41, 61 ;
+
+			for (int populationCount : populations) {
+
+				arcx4.setClassifierPopulation(populationCount);
+				arcx4.train();
+
+				CreditErrorEstimator arcx4ee  = new CreditErrorEstimator(testDS, arcx4);
+		        long begin = System.currentTimeMillis();
+
+				arcx4ee.run();
+
+				{
+					RunResult runResult = new RunResult(aTrainer, populationCount, arcx4ee.getCorrectCount(),
+																					  arcx4ee.getMisclassifiedInstanceCount(),  arcx4ee.getAccuracy(),
+																					  (System.currentTimeMillis() - begin) / 1000);
+					results.add(runResult);
+				}
+			}
+		}
+
+		for (RunResult aResult : results) {
+			System.out.format(aResult.trainer + "," + aResult.population + "," + aResult.classified + "," + aResult.misclassified + "," + aResult.accuracy + "," + aResult.timeSeconds);
+		}

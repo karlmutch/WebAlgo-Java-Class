@@ -1,0 +1,86 @@
+HTTrack3.43-7+htsswf+htsjava launched on Thu, 15 Jul 2010 08:32:20 at http://www.coptic.org/language/index2.html +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qir2%e0C2%Pxs2u1%s%uN0%Ip7DaK0c2H0%kf2A25000%c2%f#f -F "Mozilla/5.0 (Windows; U; Windows NT 5.0; en-US; rv:1.1) Gecko/20020826" -%F  -%l "en, en, *" http://www.coptic.org/language/index2.html -O1 "C:\Devel\Web Algo\CopticDocuments\Coptic Documents" +*.png +*.gif +*.jpg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+08:32:22	Info: 	engine: transfer-status: link added: tagtag.com/js/emulator/emulator_public.js -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/tagtag.com/js/emulator/emulator_public.js
+08:32:22	Info: 	engine: warning: entry cleaned up, but no trace on heap: tagtag.com/js/emulator/emulator_public.js (C:/Devel/Web Algo/CopticDocuments/Coptic Documents/tagtag.com/js/emulator/emulator_public.js)
+08:32:23	Info: 	engine: transfer-status: link added: www.coptic.org/language/index.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/index.html
+08:32:24	Info: 	engine: transfer-status: link added: www.coptic.org/language/index1.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/index1.html
+08:32:25	Info: 	engine: transfer-status: link added: www.coptic.org/language/index3.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/index3.html
+08:32:25	Info: 	engine: transfer-status: link added: www.coptic.org/language/index4.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/index4.html
+08:32:26	Info: 	engine: transfer-status: link added: www.coptic.org/language/index5.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/index5.html
+08:32:29	Info: 	engine: transfer-status: link added: www.coptic.org/language/title.jpg -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/title.jpg
+08:32:31	Info: 	engine: transfer-status: link added: www.coptic.org/language/Isaak.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Isaak.htm
+08:32:33	Info: 	engine: transfer-status: link added: www.coptic.org/language/kamy.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/kamy.html
+08:32:35	Info: 	engine: transfer-status: link added: www.coptic.org/language/onnophrios.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/onnophrios.html
+08:32:36	Info: 	engine: transfer-status: link added: www.coptic.org/language/Shenoute.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Shenoute.html
+08:32:36	Info: 	engine: transfer-status: link added: www.coptic.org/language/Archellides.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Archellides.html
+08:32:37	Info: 	engine: transfer-status: link added: www.coptic.org/language/antioch.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/antioch.htm
+08:32:38	Info: 	engine: transfer-status: link added: www.coptic.org/language/petros.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/petros.htm
+08:32:39	Info: 	engine: transfer-status: link added: www.coptic.org/language/apanoub.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/apanoub.htm
+08:32:40	Info: 	engine: transfer-status: link added: www.coptic.org/language/Pachoam.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Pachoam.html
+08:32:42	Info: 	engine: transfer-status: link added: www.coptic.org/language/pirwmeoc.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/pirwmeoc.html
+08:32:43	Info: 	engine: transfer-status: link added: www.coptic.org/language/Mercurs1.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Mercurs1.htm
+08:32:44	Info: 	engine: transfer-status: link added: www.coptic.org/language/Paul.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Paul.html
+08:32:45	Info: 	engine: transfer-status: link added: www.coptic.org/language/athanasanthony.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/athanasanthony.html
+08:32:47	Info: 	engine: transfer-status: link added: www.coptic.org/language/passio.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/passio.html
+08:32:49	Info: 	engine: transfer-status: link added: www.coptic.org/language/carpenter.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/carpenter.html
+08:32:51	Info: 	engine: transfer-status: link added: www.coptic.org/language/phanidjoit.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/phanidjoit.html
+08:33:00	Info: 	engine: transfer-status: link added: www.coptic.org/language/overview.pdf -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/overview.pdf
+08:33:10	Info: 	engine: transfer-status: link added: www.coptic.org/language/pisentnotes.pdf -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/pisentnotes.pdf
+08:33:11	Info: 	engine: transfer-status: link added: www.coptic.org/language/michel.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/michel.html
+08:33:11	Info: 	engine: transfer-status: link added: www.coptic.org/language/Kimi.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Kimi.htm
+08:33:11	Info: 	engine: transfer-status: link added: www.coptic.org/language/pisent.pdf -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/pisent.pdf
+08:33:12	Info: 	engine: transfer-status: link added: www.coptic.org/language/rwmill.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/rwmill.html
+08:33:12	Info: 	engine: transfer-status: link added: www.coptic.org/language/Story.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Story.htm
+08:33:13	Info: 	engine: transfer-status: link added: www.coptic.org/language/Erphei.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Erphei.htm
+08:33:13	Info: 	engine: transfer-status: link added: www.coptic.org/language/soni.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/soni.htm
+08:33:14	Info: 	engine: transfer-status: link added: www.coptic.org/language/etshoti.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/etshoti.html
+08:33:14	Info: 	engine: transfer-status: link added: www.coptic.org/language/dioscorus.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/dioscorus.html
+08:33:15	Info: 	engine: transfer-status: link added: www.coptic.org/language/cyril.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/cyril.html
+08:33:16	Info: 	engine: transfer-status: link added: www.coptic.org/language/bylla.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/bylla.html
+08:33:16	Info: 	engine: transfer-status: link added: www.coptic.org/language/Athanase.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Athanase.html
+08:33:17	Info: 	engine: transfer-status: link added: www.coptic.org/language/Ant-Atha-Meet.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Ant-Atha-Meet.html
+08:33:19	Info: 	engine: transfer-status: link added: www.coptic.org/language/Shnti.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Shnti.html
+08:33:19	Info: 	engine: transfer-status: link added: www.coptic.org/language/othrs.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/othrs.html
+08:33:19	Info: 	engine: transfer-status: link added: www.coptic.org/language/schenute.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/schenute.html
+08:33:21	Info: 	engine: transfer-status: link added: www.coptic.org/language/cmclshenoute.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/cmclshenoute.htm
+08:33:22	Info: 	engine: transfer-status: link added: www.coptic.org/language/sayings.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/sayings.html
+08:33:23	Info: 	engine: transfer-status: link added: www.coptic.org/language/emeperfiu.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/emeperfiu.html
+08:33:23	Info: 	engine: transfer-status: link added: www.coptic.org/language/silvanos.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/silvanos.htm
+08:33:24	Info: 	engine: transfer-status: link added: www.coptic.org/language/pachomian.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/pachomian.html
+08:33:24	Info: 	engine: transfer-status: link added: www.coptic.org/language/Penyoat.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Penyoat.htm
+08:33:25	Info: 	engine: transfer-status: link added: www.coptic.org/language/sqa.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/sqa.htm
+08:33:25	Info: 	engine: transfer-status: link added: www.coptic.org/language/hanfoji.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/hanfoji.html
+08:33:26	Info: 	engine: transfer-status: link added: www.coptic.org/language/philosophia.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/philosophia.html
+08:49:21	Info: 	engine: transfer-status: link added: www.coptic.org/language/copticmanuscript00crumuoft.pdf -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/copticmanuscript00crumuoft.pdf
+09:00:43	Info: 	engine: transfer-status: link added: www.coptic.org/language/linguisticessays00abelrich_bw.pdf -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/linguisticessays00abelrich_bw.pdf
+09:07:49	Info: 	engine: transfer-status: link added: www.coptic.org/language/Budge-Apocrypha.pdf -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Budge-Apocrypha.pdf
+10:15:10	Info: 	engine: transfer-status: link added: www.coptic.org/language/martyrdommiracle00budguoft.pdf -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/martyrdommiracle00budguoft.pdf
+10:15:13	Info: 	engine: transfer-status: link added: www.coptic.org/language/Contemporarydoxologies.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Contemporarydoxologies.html
+10:15:15	Info: 	engine: transfer-status: link added: www.coptic.org/language/contemporary.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/contemporary.html
+10:15:16	Info: 	engine: transfer-status: link added: www.coptic.org/language/hansma.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/hansma.html
+10:15:20	Info: 	engine: transfer-status: link added: www.coptic.org/language/calendar1717.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/calendar1717.htm
+10:15:24	Info: 	engine: transfer-status: link added: www.coptic.org/language/t3.jpg -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/t3.jpg
+10:15:25	Info: 	engine: transfer-status: link added: www.coptic.org/language/acknoledge.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/acknoledge.html
+10:15:26	Info: 	engine: transfer-status: link added: www.coptic.org/language/Patron/index.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/Patron/index.html
+10:15:34	Error: 	"Not Found" (404) at link www.coptic.org/language/serv (from www.coptic.org/language/index2.html)
+10:15:35	Info: 	engine: transfer-status: link added: www.coptic.org/language/shadje.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/shadje.html
+10:15:35	Info: 	engine: transfer-status: link added: www.coptic.org/language/FAQ.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/FAQ.html
+10:15:36	Info: 	engine: transfer-status: link added: www.coptic.org/language/keft.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/keft.htm
+10:15:37	Warning: 	Unexpected 412/416 error (Precondition Failed) for tagtag.com/js/emulator/emulator_public.js
+10:15:38	Info: 	engine: transfer-status: link added: www.coptic.org/language/index.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/index.html
+10:15:39	Info: 	engine: transfer-status: link added: www.coptic.org/language/keft.htm -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/keft.htm
+10:46:28	Info: 	engine: transfer-status: link added: www.coptic.org/language/miscellaneouscop00budguoft.pdf -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/miscellaneouscop00budguoft.pdf
+10:46:28	Error: 	"Cancelled by User" (-1) at link www.coptic.org/language/wadisargacopticg00crumuoft.pdf (from www.coptic.org/language/index2.html)
+10:46:28	Info: 	engine: transfer-status: link added: www.coptic.org/language/FAQ.html -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/FAQ.html
+10:46:32	Info: 	engine: transfer-status: link added: www.coptic.org/language/pisentverbs.pdf -> C:/Devel/Web Algo/CopticDocuments/Coptic Documents/www.coptic.org/language/pisentverbs.pdf
+10:49:12	Error: 	"Cancelled by User" (-1) at link www.coptic.org/language/Budge-Michael.pdf (from www.coptic.org/language/index2.html)
+No files purged
+
+HTTrack Website Copier/3.43-7 mirror complete in 2 hours 16 minutes 53 seconds : 78 links scanned, 70 files written (186752012 bytes overall), 69 files updated [203221310 bytes received at 24743 bytes/sec], 892 bytes transfered using HTTP compression in 3 files, ratio 58%, 3.7 requests per connection
+(3 errors, 1 warnings, 70 messages)

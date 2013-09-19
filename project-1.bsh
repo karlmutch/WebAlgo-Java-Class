@@ -1,0 +1,23 @@
+sourceUTF8(new File("C:/Devel/Web Algo/RedirectedFrame.bsh").toURL());
+outputTest = new RedirectedFrame(false);
+
+FetchAndProcessCrawler c = new FetchAndProcessCrawler("C:/Devel/Web Algo/", 5, 200);
+
+URLFilter urlFilter = new URLFilter();
+urlFilter.setAllowFileUrls(true);
+urlFilter.setAllowHttpUrls(false);
+c.setUrlFilter(urlFilter);
+
+c.addUrl(new File("C:/Devel/Web Algo/Keft Biography.html").toURI().toASCIIString());
+c.addUrl(new File("C:/Devel/Web Algo/Father Shenoute.html").toURI().toASCIIString());
+c.addUrl(new File("C:/Devel/Web Algo/Father John.html").toURI().toASCIIString());
+
+c.run();
+
+LuceneIndexer lidx = new LuceneIndexer(c.getRootDir());
+lidx.run(); 
+
+MySearcher oracle = new MySearcher(lidx.getLuceneDir());
+results = oracle.search("ⲁⲡⲁ",5);
+searchResult = MySearcher.formatResults("", "", results, true);
+

@@ -1,0 +1,65 @@
+public class RedirectedFrame extends JFrame {
+    JTextArea aTextArea = new JTextArea();
+	aTextArea.setFont(new Font("New Athena Unicode", Font.PLAIN, 20));
+    PrintStream aPrintStream  = 
+       new PrintStream(
+         new FilteredStream(
+           new ByteArrayOutputStream()), true, "UTF-8");
+
+    boolean logFile;
+
+    RedirectedFrame(boolean logFile) {
+       this.logFile = logFile;
+       System.setOut(aPrintStream);
+       System.setErr(aPrintStream);
+       setTitle("Messages");
+       setSize(500,300);
+       setLayout(new BorderLayout());
+       add("Center" , aTextArea);
+       displayLog();
+       addWindowListener
+          (new WindowAdapter() {
+             public void windowClosing(WindowEvent e) {
+                dispose();
+                }
+             }
+          );
+       }
+
+	   void print(java.lang.String output)
+	   {
+			aTextArea.append("\n" + output);
+	   }
+	   
+    class FilteredStream extends FilterOutputStream {
+       public FilteredStream(ByteArrayOutputStream aStream) {
+          super(aStream);
+          }
+
+       public void write(byte [] b) throws IOException {
+          aString = new java.lang.String(b);
+          aTextArea.append("\n" + aString);
+          }
+
+       public void write(byte [] b, int off, int len) throws IOException {
+          aString = new java.lang.String(b , off , len);
+          aTextArea.append("\n" + aString);
+          if (logFile) {
+             FileWriter aWriter = new FileWriter("error.log", true);
+             aWriter.write(aString);
+             aWriter.close();
+             }
+          }
+       }
+
+    public void displayLog() {
+       Dimension dim = getToolkit().getScreenSize();
+       Rectangle abounds = getBounds();
+       Dimension dd = getSize();
+       setLocation((dim.width - abounds.width) / 2,
+          (dim.height - abounds.height) / 2);
+       setVisible(true);
+       requestFocus();
+       }
+
+    }
