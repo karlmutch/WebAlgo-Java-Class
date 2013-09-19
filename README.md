@@ -1,0 +1,4 @@
+WebAlgo-Java-Class
+==================
+
+Because most of the code I write is closed source and I wanted to give others a peek into my Java world. So, I have available, upon request, source code and documentation from a Web Algorithms class, part of a Java Certification track at UCB, done while I was independently learning Java. Granted it is probably not up to what I do today but it is at least something for people to look at should they feel the need to know that I have Java experience.  During the class I wrote things as diverse as a grails gwt mashup plugin for Eclipse, all the way to a lingpipe, lucene based document classifier, and grammar processor for word separation in Coptic.  The classifier (K-Means) and processor was capable of Coptic word splitting with high accuracy armed with very little training data and could distinguish between poetry, religious text and business documents.
